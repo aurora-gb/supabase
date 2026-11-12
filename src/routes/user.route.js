@@ -4,7 +4,7 @@ import {
   getUserByIdController,
   updateUserController,
   deleteUserController,
-} from "../controllers/user.controllers.js";
+} from "../controllers/user.controller.js";
 import { validateUser } from "../middleware/guard.middleware.js";
 
 const router = express.Router();
